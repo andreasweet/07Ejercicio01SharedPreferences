@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 editor.putString(Constantes.CORREOUSUARIO, correo);
                 editor.putString(Constantes.PASSWORD, password);
                 editor.apply();
+                cargarDatos();
             }
         });
     }
